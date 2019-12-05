@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en-UK">
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="../css/citypage.css">
+  <script src="../converter.js"> </script>
+  <title> Warsaw </title>
+
+</head>
+
+
+<body>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+
+
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+      </div>
+
+
+
+
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav ">
+          <li class="active"><a href="../index.html">Home</a></li>
+
+
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Poland
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="../poland/warsawpage.html">Warsaw</a></li>
+              <li><a href="../poland/krakowpage.html">Krakow</a></li>
+            </ul>
+          </li>
+
+
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">U.K.
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="../uk/londonpage.html">London</a></li>
+              <li><a href="../uk/edinburghpage.html">Edinburgh</a></li>
+            </ul>
+          </li>
+
+
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Italy
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="../italy/romepage.html">Rome</a></li>
+              <li><a href="../italy/naplespage.html">Naples</a></li>
+            </ul>
+          </li>
+
+
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Germany
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="../germany/berlinpage.html">Berlin</a></li>
+              <li><a href="../germany/munichpage.html">Munich</a></li>
+            </ul>
+          </li>
+
+
+          <li class="active"><a href="../about/aboutpage.html">Contact us</a></li>
+
+
+
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+<h1 style="margin-left:30px">Warsaw, Poland</h1>
+
+
+<div class="tab-content">
+
+  <ul class="nav nav-tabs nav-justified">
+    <li class="active"><a data-toggle="tab" href="#overview">Overview</a></li>
+    <li><a data-toggle="tab" href="#sights">Sights</a></li>
+    <li><a data-toggle="tab" href="#museums">Museums</a></li>
+    <li><a data-toggle="tab" href="#food">Food</a></li>
+    <li><a data-toggle="tab" href="#transport">Transport</a></li>
+  </ul>
+
+  <div id="overview" class="tab-pane fade in active">
+
+
+    <div class="col-sm-4">
+    <h3>Overview</h3>
+    <h4>Currency: </h4><p>Polish Zloty</p>
+      <br>
+    <h4>Exchange rate: </h4><p>1GBP=4.81PLN</p>
+      <br>
+      <h4>Currency converter</h4>
+      <p>Type a value in GBP to convert it to PLN:</p>
+
+      <p>
+        <label>GBP</label>
+        <input id="GBP" type="number" placeholder="GBP" oninput="CurrencyConverter2(this.value)" onchange="CurrencyConverter2(this.value)">
+      </p>
+      <p>PLN: <span id="outputPLN"></span></p>
+
+    <br>
+
+
+    <h4>Official language: </h4><p>Polish</p>
+      <br>
+    <h4>  The national emergency numbers are: </h4>
+    <li>112 - emergency</li>
+    <li>997 - police</li>
+    <li>998 - fire brigade</li>
+    <li>999 - ambulance</li>
+      <br>
+    <h4>Time difference:</h4><p> +1HR </p>
+    </div>
+
+    <div class="col-sm-8">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <img class="img-responsive"  src='warsawoverview.jpeg' >
+      <br>
+      <br>
+      <br>
+
+    </div>
+  </div>
+
+  <div id="sights" class="tab-pane fade">
+
+    <div style="margin-left:30px">
+    <h3>Sights</h3>
+    </div>
+
+
+    <div class="col-sm-12">
+      <div class="col-sm-6">
+        <h4>Warsaw Old Town</h4>
+        <img class="img-responsive"  src='warsaw1.jpeg' >
+      </div>
+
+      <div class="col-sm-6">
+        <br>
+        <br>
+        <div class="col-sm-6">
+          <p> The old town is the olderst part of Poland.</p>
+          <p> The old town market place is at the centre of the area as well as many of the smaller local museums, coffee shops, street food stands and street performers.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-sm-12">
+      <div class="col-sm-6">
+        <h4>Palace of Culture and Science</h4>
+        <img class="img-responsive"  src='warsaw2.jpeg' >
+      </div>
+
+      <div class="col-sm-6">
+        <br>
+        <br>
+        <div class="col-sm-6">
+        <p>The palace was a gift from Stalin and is still a controversial building.</p>
+        <p>It is the highest building in Warsaw </p>
+        <p> Admission for the viewing level is 20PLN for normal and 15PLN for reduced. </p>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-sm-12">
+      <div class="col-sm-6">
+        <h4>Lazienki - Royal Residence Park</h4>
+        <img class="img-responsive"  src='warsaw3.jpeg' >
+      </div>
+
+      <div class="col-sm-6">
+        <br>
+        <br>
+        <div class="col-sm-6">
+        <p> The park is the largest in Poland. </p>
+        <p> It serves as a venue for music, the arts, and culture events. The park is also home to peacocks.</p>
+        <p> The park contains a palace, an aphitheater and a large number of statues </p>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+
+  </div>
+
+  <div id="museums" class="tab-pane fade media">
+
+    <div style="margin-left:30px">
+       <h3>Museums</h3>
+    </div>
+
+    <div class="col-sm-12">
+      <div class="col-sm-6">
+      <h4>Copernicus Science Centre</h4>
+      <img class="img-responsive"  src='warsaw4.jpeg' >
+      </div>
+
+      <div class="col-sm-6">
+        <br>
+        <br>
+        <div col-sm-6>
+        <p> The museum has a variety of interactive scientific displays and documents many of the significant discoveries.</p>
+
+
+        <p> Entry prices: </p>
+        <p> Normal - 31PLN </p>
+        <p> Reduced tickets for under 19s, students under 26 and seniors- 21PLN </p>
+        <p> Under 5s - free</p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-12">
+      <div class="col-sm-6">
+        <h4> Warsaw Uprising Museum </h4>
+        <img class="img-responsive"  src='warsaw5.jpeg' >
+      </div>
+
+      <div class="col-sm-6">
+        <br>
+        <br>
+        <div class="col-sm-6">
+        <p> The museum is dedicated to the Warsaw Uprising of 1944 </p>
+        <p> Entry prices: </p>
+        <p> Normal - 20 PLN </p>
+        <p> Reduced - 16 PLN </p>
+        <p> Free on Sundays </p>
+      </div>
+    </div>
+  </div>
+
+
+
+   </div>
+
+  <div id="food" class="tab-pane fade">
+
+    <div style="margin-left:30px">
+      <h3>Food</h3>
+    </div>
+
+
+    <div class="col-sm-12">
+    <div class="col-sm-6">
+      <h4>Gościniec Polskie Pierogi</h4>
+      <img class="img-responsive"  src='warsaw6.jpeg' >
+    </div>
+
+    <div class="col-sm-6">
+      <br>
+      <br>
+      <div col-sm-6>
+        <li>The restaurant serves food to sit.</li>
+
+        <li> It serves a great range of traditional Polish dumplings as well modern adaptations of the traditional dish and traditional drinks </li>
+
+        <li> Address: Podwale 19, 00-252 Warszawa, Poland </li>
+
+      </div>
+    </div>
+
+    </div>
+
+    <div class="col-sm-12">
+    <div class="col-sm-6">
+      <h4>Piekarnia Aromat</h4>
+      <img class="img-responsive"  src='warsaw7.png' >
+    </div>
+
+    <div class="col-sm-6">
+      <br>
+      <br>
+      <div col-sm-6>
+        <li> This bakery serves traditional Polish cakes and modern sweet treats as well as hot drinks.</li>
+
+        <li>Address: Koszykowa 63, 00-667 Warszawa, Poland </li>
+
+      </div>
+    </div>
+
+    </div>
+
+
+
+  </div>
+
+  <div id="transport" class="tab-pane fade">
+
+    <div style="margin-left:30px">
+      <h3>Transport</h3>
+    </div>
+
+    <div class="col-sm-12">
+      <div class="col-sm-4">
+         <h4> If traveling from Warsaw Chopin Airport you can do so by: </h4>
+         <li> The train leaves from the train station at the airport once an hour and costs 4,40 PLN. The tickets can be bought from the ticket booths and the train ride will take about 20min.</li>
+         <li> Buses run frequently between 04:28 and 22:58 with journey time taking approximately 25 minutes. The tickets for these can be bought from the ticket machines and cost 3,40 PLN </li>
+         <li> The taxi ride from the airport to the city centre costs around 35-50 PLN and will take 15-30min depending on traffic </li>
+      </div>
+
+      <div class="col-sm-6">
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d78239.24602484201!2d20.923518761016098!3d52.207475667311364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x4719331c42e95ce3%3A0x22c5f5a26843e8d1!2swarsaw+chopin!3m2!1d52.1672369!2d20.9678911!4m5!1s0x471ecc6f49f976dd%3A0x50d2f456e2756d4f!2sWarsaw+Old+Town%2C+00-001+Warsaw%2C+Poland!3m2!1d52.2477331!2d21.0136079!5e0!3m2!1sen!2suk!4v1523893003169" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div class="col-sm-12">
+      <div class="col-sm-4">
+         <h4> If traveling from Warsaw Modlin Airport you can do so by: </h4>
+         <li> Catching the shuttle to Modlin Train Station and the train to the centre. The journey will cost 19PLN and take around 50min. You can buy a ticket at one of the stands in the airport. </li>
+         <li> The bus prices from the aiport vary depending on the season and how far in advance you book. The prices vary from 9PLN to 35PLN. You can buy the ticket at one of the stands at the airport </li>
+         <li> The taxi prices start at 159PLN but can go much higher than that especially after midnight </li>
+      </div>
+
+      <div class="col-sm-6">
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d312009.1308749949!2d20.546559113516697!3d52.34192226893772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x471ea59d20dc48f1%3A0xf3065e629ce7a535!2swarsaw+modlin!3m2!1d52.4492645!2d20.6512374!4m5!1s0x471ecc6f49f976dd%3A0x50d2f456e2756d4f!2sWarsaw+Old+Town%2C+00-001+Warsaw%2C+Poland!3m2!1d52.2477331!2d21.0136079!5e0!3m2!1sen!2suk!4v1523893533218" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+    </div>
+
+
+
+
+    <div class="col-sm-12">
+      <div class="col-sm-4">
+      <h4> Within Warsaw the public transport options are tram and bus, tickets must be bought at the ticket machines at the stops and the prices are as follows: </h4>
+      <li> Single ticket - 4,40PLN </li>
+      <li> 20min ticket - 3,40PLN </li>
+
+      <li> 90min ticket - 7,00PLN </li>
+      <li> 24h ticket - 15,00PLN </li>
+      <li> 72h ticket - 36,00PLN </li>
+    </div>
+    </div>
+
+  </div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="col-sm-12">
+  <br>
+
+  <br>
+
+  <br>
+
+  <br>
+
+  <br>
+
+  <br>
+  <button class='btn btn-primary btn-lg btn-twitter'>Twitter</button>
+  <button class='btn btn-primary btn-lg btn-facebook'><a class='social' href="https://www.facebook.com/dayinthecity1">Facebook</a></button>
+  <button class='btn btn-primary btn-lg btn-instagram'>Instagram</button>
+</div>
+
+</body>
+</html>

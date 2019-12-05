@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en-UK">
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="../css/citypage.css">
+  <script src="../converter.js"> </script>
+  <title> Berlin </title>
+
+</head>
+
+
+<body>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+
+
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+      </div>
+
+
+
+
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav ">
+          <li class="active"><a href="../index.html">Home</a></li>
+
+
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Poland
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="../poland/warsawpage.html">Warsaw</a></li>
+              <li><a href="../poland/krakowpage.html">Krakow</a></li>
+            </ul>
+          </li>
+
+
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">U.K.
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="../uk/londonpage.html">London</a></li>
+              <li><a href="../uk/edinburghpage.html">Edinburgh</a></li>
+            </ul>
+          </li>
+
+
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Italy
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="../italy/romepage.html">Rome</a></li>
+              <li><a href="../italy/naplespage.html">Naples</a></li>
+            </ul>
+          </li>
+
+
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Germany
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="germany/berlinpage.html">Berlin</a></li>
+              <li><a href="germany/munichpage.html">Munich</a></li>
+            </ul>
+          </li>
+
+
+          <li class="active"><a href="../about/aboutpage.html">Contact us</a></li>
+
+
+
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+<h1 style="margin-left:30px"> Berlin, Germany </h1>
+
+
+<div class="tab-content">
+
+  <ul class="nav nav-tabs nav-justified">
+    <li class="active"><a data-toggle="tab" href="#overview">Overview</a></li>
+    <li><a data-toggle="tab" href="#sights">Sights</a></li>
+    <li><a data-toggle="tab" href="#museums">Museums</a></li>
+    <li><a data-toggle="tab" href="#food">Food</a></li>
+    <li><a data-toggle="tab" href="#transport">Transport</a></li>
+  </ul>
+
+  <div id="overview" class="tab-pane fade in active">
+
+
+    <div class="col-sm-4">
+    <h3>Overview</h3>
+    <h4>Currency: </h4><p>Euro</p>
+      <br>
+    <h4>Exchange rate: </h4><p>1GBP=1.15EURO</p>
+      <br>
+      <h4>Currency converter</h4>
+      <p>Type a value in GBP to convert it to EUR:</p>
+
+      <p>
+        <label>GBP</label>
+        <input id="GBP" type="number" placeholder="GBP" oninput="CurrencyConverter(this.value)" onchange="CurrencyConverter(this.value)">
+      </p>
+      <p>EUR: <span id="outputEUR"></span></p>
+
+    <br>
+
+
+    <h4>Official language: </h4><p>German</p>
+      <br>
+    <h4>  The national emergency numbers are: </h4>
+    <li>112 - emergency and fire brigade</li>
+    <li>110 - police</li>
+
+      <br>
+    <h4>Time difference:</h4><p> +1HR </p>
+    </div>
+
+    <div class="col-sm-8">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <img class="img-responsive"  src='berlinoverview.jpeg' >
+      <br>
+      <br>
+      <br>
+
+    </div>
+  </div>
+
+  <div id="sights" class="tab-pane fade">
+
+    <div style="margin-left:30px">
+    <h3>Sights</h3>
+    </div>
+
+
+    <div class="col-sm-12">
+      <div class="col-sm-6">
+        <h4>Brandenburg Gate</h4>
+        <img class="img-responsive"  src='berlin1.jpeg' >
+      </div>
+
+      <div class="col-sm-6">
+        <br>
+        <br>
+        <div class="col-sm-6">
+          <p> The gate is an 18th centruy monument  built on the orders of Prussian king Frederick William II.</p>
+          <p> It is is 26 metres high, 65.5 metres long and 11 metres deep, and supported by two rows of six columns. </p>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-sm-12">
+      <div class="col-sm-6">
+        <h4>Berlin Wall</h4>
+        <img class="img-responsive"  src='berlin2.jpeg' >
+      </div>
+
+      <div class="col-sm-6">
+        <br>
+        <br>
+        <div class="col-sm-6">
+        <p>The wall was constructed by the German Democratic Republic (GDR, East Germany) </p>
+        <p> The building started on the 13th of August 1961, and the wall cut off West Berlin from virtually all of surrounding East Germany and East Berlin </p>
+        <p> It was reopened in November 1989 </p>
+        <p> Parts of the wall were demolished but parts still remain </p>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-sm-12">
+      <div class="col-sm-6">
+        <h4>Reichstag building</h4>
+        <img class="img-responsive"  src='berlin3.jpeg' >
+      </div>
+
+      <div class="col-sm-6">
+        <br>
+        <br>
+        <div class="col-sm-6">
+        <p> The building opened in 1894 </p>
+        <p> After a fire in 1933 it was left and only reconstructed in 1999 </p>
+        <p> You can visit the dome and rooftop terrace of the Reichstag for free but you need to book a ticket in advance </p>
+
+        </div>
+      </div>
+
+    </div>
+
+
+
+  </div>
+
+  <div id="museums" class="tab-pane fade media">
+
+    <div style="margin-left:30px">
+       <h3>Museums</h3>
+    </div>
+
+    <div class="col-sm-12">
+      <div class="col-sm-6">
+      <h4>Allied Museum</h4>
+      <img class="img-responsive"  src='berlin4.jpeg' >
+      </div>
+
+      <div class="col-sm-6">
+        <br>
+        <br>
+        <div col-sm-6>
+        <p> The museum displays the history of the Western powers in Berlin from 1945 to 1994 </p>
+        <P> Entry to the museum is free </p>
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-12">
+      <div class="col-sm-6">
+        <h4>Museum Island</h4>
+        <img class="img-responsive"  src='berlin5.jpeg' >
+      </div>
+
+      <div class="col-sm-6">
+        <br>
+        <br>
+        <div class="col-sm-6">
+        <p> The museum island contains 5 museums: </p>
+        <p> Pergamonmuseum (Pergamon Museum), Bode-Museum, Neues Museum (New Museum), Alte Nationalgalerie (Old National Gallery) and Altes Museum (Old Museum) </p>
+        <p> The museums display a collection of art, historical objects and acnhient artifacts. </p>
+        <p> Entry fees: </p>
+        <li> Full entry - €18,00</li>
+        <li> Reduced entry for EU citizens aged 18 to 25 - €9,00 </li>
+        <li> Free entry for under 18s </p>
+
+      </div>
+    </div>
+  </div>
+
+
+
+   </div>
+
+  <div id="food" class="tab-pane fade">
+
+    <div style="margin-left:30px">
+      <h3>Food</h3>
+    </div>
+
+
+    <div class="col-sm-12">
+    <div class="col-sm-6">
+      <h4>Curry 36 </h4>
+      <img class="img-responsive"  src='berlin6.jpeg' >
+    </div>
+
+    <div class="col-sm-6">
+      <br>
+      <br>
+      <div col-sm-6>
+        <li> They have a number of places around Berlin and are famous for serving currywursts </li>
+        <li>Address: Mehringdamm 36, 10961 Berlin Kreuzberg </li>
+        <li>Address: Zoologischer Garten Hardenbergplatz 9, 10623 Berlin </li>
+
+      </div>
+    </div>
+
+    </div>
+
+
+    <div class="col-sm-12">
+    <div class="col-sm-6">
+      <h4>Rogacki</h4>
+      <img class="img-responsive"  src='berlin7.jpeg' >
+    </div>
+
+    <div class="col-sm-6">
+      <br>
+      <br>
+      <div col-sm-6>
+        <li>Address: Wilmersdorfer Str. 145/46, 10585 Berlin, Germany</li>
+        <li> The deli, dates back to the 1930s </li>
+        <li> It sells a range of meat and fish as well as other cooked foods </li>
+      </div>
+    </div>
+
+    </div>
+
+  </div>
+
+  <div id="transport" class="tab-pane fade">
+
+    <div style="margin-left:30px">
+      <h3>Transport</h3>
+    </div>
+
+    <div class="col-sm-12">
+      <div class="col-sm-4">
+         <h4> If traveling from Airport Berlin Tegel TXL you can do so by: </h4>
+         <li> The express bus X9 which departs every 5-10min and takes around 20 min to get to the centre. The bus costs €2,80 </li>
+         <li> A taxi ride into the centre will cost from €20-€30 depending on your destination </li>
+
+
+      </div>
+
+      <div class="col-sm-6">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d77663.14484572464!2d13.278842498048885!3d52.5339176814877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x47a853f955555555%3A0x64b97d7d67bf2aea!2sBerlin+Tegel+Airport+(TXL)%2C+Zufahrt+zum+Flughafen+Tegel%2C+13405+Berlin%2C+Germany!3m2!1d52.558832699999996!2d13.2884374!4m5!1s0x47a851dfead80d8f%3A0x26212047581535f2!2sMitte%2C+Berlin%2C+Germany!3m2!1d52.519444!2d13.4066669!5e0!3m2!1sen!2suk!4v1523902457343" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+    </div>
+
+
+    <div class="col-sm-12">
+      <div class="col-sm-4">
+         <h4> If traveling from Airport Berlin Schönefeld SXF you can do so by: </h4>
+         <li> Between 4.30 a.m. and 11 p.m. the regional trains RE7 and RB14 called the Airport Express, travel in 30 minute intervals. The journey to the centre takes about 30min and costs €3,40. </li>
+         <li> The following buses run to Berlin's city center from Terminal A: 163, 171, X7, N7, N60. These also cost €3,40 </li>
+         <li> A taxi ride into the centre will cost from €40-€45 depending on your destination </li>
+
+      </div>
+
+      <div class="col-sm-6">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d155610.89658148575!2d13.334497274727697!3d52.45341595983068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x47a8385c00000001%3A0x34ff19458be0a4c0!2sBerlin+Sch%C3%B6nefeld+Airport+(SXF)%2C+Flughafen+Sch%C3%B6nefeld%2C+12521+Berlin%2C+Germany!3m2!1d52.385441099999994!2d13.5216148!4m5!1s0x47a851dfead80d8f%3A0x26212047581535f2!2sMitte%2C+Berlin%2C+Germany!3m2!1d52.519444!2d13.4066669!5e0!3m2!1sen!2suk!4v1523902986541" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+    </div>
+
+
+
+
+
+    <div class="col-sm-12">
+      <div class="col-sm-4">
+      <h4> Within Berlin the public transport fares depend on zones. The prices are: </h4>
+      <li> Single journey: Zone AB - €2.80; Zone ABC - €3,40 </li>
+      <li> Short distance: €1,70 the ticket is valid for 3 stops with S- and U-Bahn. Changing trains is allowed. The ticket is valid for six stops on buses and trams, but only if not changing vehicles. </li>
+      <li> A day ticket is valid from its the day of its validation until 3 a.m. the following day and costs €7,00 in tariff zone AB, and €7,70 in tariff zone ABC </li>
+
+
+
+    </div>
+    </div>
+
+  </div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="col-sm-12">
+  <br>
+
+  <br>
+
+  <br>
+
+  <br>
+
+  <br>
+
+  <br>
+  <button class='btn btn-primary btn-lg btn-twitter'>Twitter</button>
+  <button class='btn btn-primary btn-lg btn-facebook'><a class='social' href="https://www.facebook.com/dayinthecity1">Facebook</a></button>
+  <button class='btn btn-primary btn-lg btn-instagram'>Instagram</button>
+</div>
+
+</body>
+</html>

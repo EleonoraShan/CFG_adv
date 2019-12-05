@@ -1,0 +1,48 @@
+body {
+
+    background-image:url('imagescss/backgroundcity.jpg');
+
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-family:courier;
+    font-size:80px;
+    text-align:left;
+}
+
+
+p {
+    border: 1px solid gray;
+    padding: 30px
+}
+
+
+
+}
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+
+}
+
+li {
+    float: centre;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 20px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    background-color: gray
+}
+
+li a:hover {
+    background-color: #111111;
+}

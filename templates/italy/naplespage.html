@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en-UK">
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="../css/citypage.css">
+  <script src="../converter.js"> </script>
+  <title> Rome </title>
+
+</head>
+
+
+<body>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+
+
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+      </div>
+
+
+
+
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav ">
+          <li class="active"><a href="../index.html">Home</a></li>
+
+
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Poland
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="../poland/warsawpage.html">Warsaw</a></li>
+              <li><a href="../poland/krakowpage.html">Krakow</a></li>
+            </ul>
+          </li>
+
+
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">U.K.
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="../uk/londonpage.html">London</a></li>
+              <li><a href="../uk/edinburghpage.html">Edinburgh</a></li>
+            </ul>
+          </li>
+
+
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Italy
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="../italy/romepage.html">Rome</a></li>
+              <li><a href="../italy/naplespage.html">Naples</a></li>
+            </ul>
+          </li>
+
+
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Germany
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="../germany/berlinpage.html">Berlin</a></li>
+              <li><a href="../germany/munichpage.html">Munich</a></li>
+            </ul>
+          </li>
+
+
+          <li class="active"><a href="../about/aboutpage.html">Contact us</a></li>
+
+
+
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+<h1 style="margin-left:30px">Naples, Italy</h1>
+
+
+<div class="tab-content">
+
+  <ul class="nav nav-tabs nav-justified">
+    <li class="active"><a data-toggle="tab" href="#overview">Overview</a></li>
+    <li><a data-toggle="tab" href="#sights">Sights</a></li>
+    <li><a data-toggle="tab" href="#museums">Museums</a></li>
+    <li><a data-toggle="tab" href="#food">Food</a></li>
+    <li><a data-toggle="tab" href="#transport">Transport</a></li>
+  </ul>
+
+  <div id="overview" class="tab-pane fade in active">
+
+
+    <div class="col-sm-4">
+    <h3>Overview</h3>
+    <h4>Currency: </h4><p>Euro</p>
+      <br>
+    <h4>Exchange rate: </h4><p>1GBP=1.15EURO</p>
+      <br>
+      <h4>Currency converter</h4>
+      <p>Type a value in GBP to convert it to EUR:</p>
+
+      <p>
+        <label>GBP</label>
+        <input id="GBP" type="number" placeholder="GBP" oninput="CurrencyConverter(this.value)" onchange="CurrencyConverter(this.value)">
+      </p>
+      <p>EUR: <span id="outputEUR"></span></p>
+
+    <br>
+
+
+    <h4>Official language: </h4><p>Italian</p>
+      <br>
+    <h4>  The national emergency numbers are: </h4>
+    <li>113 - emergency</li>
+    <li>113 - police</li>
+    <li>115 - fire brigade</li>
+    <li>118 - first aid</li>
+      <br>
+    <h4>Time difference:</h4><p> +1HR </p>
+    </div>
+
+    <div class="col-sm-8">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <img class="img-responsive"  src='naplesoverview.jpeg' >
+      <br>
+      <br>
+      <br>
+
+    </div>
+  </div>
+
+  <div id="sights" class="tab-pane fade">
+
+    <div style="margin-left:30px">
+    <h3>Sights</h3>
+    </div>
+
+
+    <div class="col-sm-12">
+      <div class="col-sm-6">
+        <h4>Royal Palace of Naples</h4>
+        <img class="img-responsive"  src='naples1.jpeg' >
+      </div>
+
+      <div class="col-sm-6">
+        <br>
+        <br>
+        <div class="col-sm-6">
+          <p> The palace dates back to the 17th century but currently mainly serves as an exhibition. </p>
+          <p> The best way to find out more about the palace is by taking the Royal walking tour of Naples - on such tour is put on by Naples that's Amore on Tuesday, Thursday and Saturday, at 10.30
+
+ and from 1st of May to 31st of October 2018, also on Monday, Wednesday and Friday at 16.30 </p>
+          <p> The palace is closed on Wednesdays </p>
+          <P> Entrance prices: </p>
+          <li> Full entrance - €6,00 </li>
+          <li> Reduced entrance for EU citizens aged 18 to 24 - €3,00 </li>
+          <li> Under 18s - free </li>
+          <li> Free admission on the first Sunday of the month </li>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-sm-12">
+      <div class="col-sm-6">
+        <h4>Pompeii</h4>
+        <img class="img-responsive"  src='naples2.jpeg' >
+      </div>
+
+      <div class="col-sm-6">
+        <br>
+        <br>
+        <div class="col-sm-6">
+        <p>Although not in Naples the anchient city of Pompeii only takes about an hour to reach by train</p>
+
+        <P> Entrance prices: </p>
+        <li> Full entrance - €13,00 </li>
+        <li> Reduced entrance for EU citizens aged 18 to 24 - €6,50 </li>
+        <li> Under 18s - free </li>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-sm-12">
+      <div class="col-sm-6">
+        <h4>San Gennaro Catacombs</h4>
+        <img class="img-responsive"  src='naples3.jpeg' >
+      </div>
+
+      <div class="col-sm-6">
+        <br>
+        <br>
+        <div class="col-sm-6">
+        <p> The catacombs have an immense history and date back to 2nd century A.D </p>
+
+        <p> The entry to the catacombs includes a tour guide. </p>
+        <p> The tour covers the history of the catacombs from their building to the present use of them for scientific experiments. </p>
+
+        <P> Entrance prices: </p>
+        <li> Full entrance - €9,00 </li>
+        <li> Reduced entrance for students and people over 65 - €6,00 </li>
+        <li> Under 18s - €5,00 </li>
+        <li> Under 6s - free</li>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-sm-12">
+      <div class="col-sm-6">
+        <h4>Castel dell'Ovo</h4>
+        <img class="img-responsive"  src='naples4.jpeg' >
+      </div>
+
+      <div class="col-sm-6">
+        <br>
+        <br>
+        <div class="col-sm-6">
+          <p> The name translates to Castle of the Egg in English.</p>
+          <p> It is located on the seafront and again the best way to find out more about the castle is by taking one of the Royal walking tours of Naples. </p>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-sm-12">
+      <div class="col-sm-6">
+        <h4>Naples Cathedral</h4>
+        <img class="img-responsive"  src='naples5.jpeg' >
+      </div>
+
+      <div class="col-sm-6">
+        <br>
+        <br>
+        <div class="col-sm-6">
+        <p> There is no admission fee to the Cathedral.</p>
+        <p> It was built in the 13th century. </p>
+        <p> In the Cathedral are displayed the skull of San Gennaro and the two phials that hold his miraculously liquefying blood.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="museums" class="tab-pane fade media">
+
+    <div style="margin-left:30px">
+       <h3>Museums</h3>
+    </div>
+
+    <div class="col-sm-12">
+      <div class="col-sm-6">
+      <h4>Naples National Archaeological Museum</h4>
+      <img class="img-responsive"  src='naples6.jpeg' >
+      </div>
+
+      <div class="col-sm-6">
+        <br>
+        <br>
+        <div col-sm-6>
+        <p> The museum contains works from Greek, Roman and Renaissance times, and  Roman artifacts from Pompeii, Stabiae and Herculaneum. It</p>
+        <p> Entry prices: </p>
+        <li> Full entry €12,00</li>
+        <li> Reduced entry for EU citizens aged 18 to 25 €6,00 </li>
+        <li> Evening entry €2,00  </p>
+        <li> Free entry for under 18s </p>
+        <li> Entry is free first Sunday of the month </li>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-12">
+      <div class="col-sm-6">
+        <h4>Museo Nazionale di Capodimonte</h4>
+        <img class="img-responsive"  src='naples7.jpeg' >
+      </div>
+
+      <div class="col-sm-6">
+        <br>
+        <br>
+        <div class="col-sm-6">
+        <p> The art museum is located in the Palace of Capodimonte. </p>
+        <p> It displays many important paintings, sculptures and other works of art </p>
+        <p> Entry prices: </p>
+        <li> Full entry - €12,00</li>
+        <li> Reduced entry for EU citizens aged 18 to 25 - €8,00 </li>
+        <li> Free entry for under 18s </p>
+        <li> Entry is €4,00 first Sunday of the month </li>
+      </div>
+    </div>
+  </div>
+
+
+
+   </div>
+
+  <div id="food" class="tab-pane fade">
+
+    <div style="margin-left:30px">
+      <h3>Food</h3>
+    </div>
+
+
+    <div class="col-sm-12">
+    <div class="col-sm-6">
+      <h4>Antica Pizzeria Port'Alba</h4>
+      <img class="img-responsive"  src='naples8.jpeg' >
+    </div>
+
+    <div class="col-sm-6">
+      <br>
+      <br>
+      <div col-sm-6>
+        <li> This is the first pizzaria in the world </li>
+        <li>Address: ia Port'Alba, 18, 80134 Napoli NA, Italy</li>
+        <li>It has both sit down tables and a counter where you can buy pizza by the slice to take away</li>
+        <li> It also has some of the cheapest pizza in Naples starting at €3,00 for a full pizza </li>
+      </div>
+    </div>
+
+    </div>
+
+
+    <div class="col-sm-12">
+    <div class="col-sm-6">
+      <h4>Il Cuoppo</h4>
+      <img class="img-responsive"  src='naples9.jpeg' >
+    </div>
+
+    <div class="col-sm-6">
+      <br>
+      <br>
+      <div col-sm-6>
+        <li>Address:Via San Biagio Dei Librai, 23, 80138 Napoli NA, Italy </li>
+        <li>The restaunt/counter has both sit down tables but getting a seat can be difficult</li>
+        <li>They serve a range of deep fried Italian treats in paper cones so it's easy to take it away with you </li>
+        <li> The food is fried to order so you may have to wait for a bit </p>
+        <li> Prices range from €3 - €9 </li>
+      </div>
+    </div>
+
+    </div>
+
+  </div>
+
+  <div id="transport" class="tab-pane fade">
+
+    <div style="margin-left:30px">
+      <h3>Transport</h3>
+    </div>
+
+    <div class="col-sm-12">
+      <div class="col-sm-4">
+         <h4> If traveling from Naples International Airport you can do so by: </h4>
+         <li> The Alibus which departs every 20-30min between 06:30 and 23:40. The journey time to the central train station is around 20min. The tickets cost €3 from a newspaper stand (Tabacchi) or €4 from the driver (although note that some drivers will only give notes as change effictively making the ticket €5)</li>
+         <li> The taxi to Piazza Municipio (main plaza) costs a fixed price of €19,00 including luggage. </li>
+
+      </div>
+
+      <div class="col-sm-6">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d48274.665443442515!2d14.2422193122406!3d40.86821815447204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x133ba81e8986d9e3%3A0xbf48c58ba6c9356d!2snaples+international+airport!3m2!1d40.884749299999996!2d14.289242999999999!4m5!1s0x133b0866db7afaeb%3A0xd23a43cc658cb87e!2sNaples%2C+Metropolitan+City+of+Naples%2C+Italy!3m2!1d40.8517746!2d14.2681244!5e0!3m2!1sen!2suk!4v1523873807551" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+    </div>
+
+
+
+
+    <div class="col-sm-12">
+      <div class="col-sm-4">
+      <h4> Within Naples the public transport options are: </h4>
+      <li> Biglietto Orario (hourly): €1.50 (valid for 90 minutes from the time the ticket is validated)</li>
+      <li> Biglietto Giornaliero (daily): €4.50 (valid until midnight on the day the ticket is validated)</li>
+      <li> Biglietto Settimanale (weekly): €15.80 (valid until midnight on the last day of the week of validity)</li>
+      <li> These are valid on all city (ANM) buses; the four funicular lines; regional EAV buses, Metro Lines 1, 2 and 6, and the Circumvesuviana, Circumflegrei and Cumana lines within the confines of the city. </li>
+      <li> The tickets can be bought at any tobacco or newpaper stand </li>
+      <li> There are also ticket machines at many of the train stations although these sometimes don't give change </li>
+      <li> Where possible avoid buying tickets at the counters as the chage given is often short. </li>
+    </div>
+    </div>
+
+  </div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="col-sm-12">
+  <br>
+
+  <br>
+
+  <br>
+
+  <br>
+
+  <br>
+
+  <br>
+  <button class='btn btn-primary btn-lg btn-twitter'>Twitter</button>
+  <button class='btn btn-primary btn-lg btn-facebook'><a class='social' href="https://www.facebook.com/dayinthecity1">Facebook</a></button>
+  <button class='btn btn-primary btn-lg btn-instagram'>Instagram</button>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en-UK">
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="../css/citypage.css">
+  <script src="../converter.js"> </script>
+  <title> Rome </title>
+
+</head>
+
+
+<body>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+
+
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+      </div>
+
+
+
+
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav ">
+          <li class="active"><a href="../index.html">Home</a></li>
+
+
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Poland
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="../poland/warsawpage.html">Warsaw</a></li>
+              <li><a href="../poland/krakowpage.html">Krakow</a></li>
+            </ul>
+          </li>
+
+
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">U.K.
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="../uk/londonpage.html">London</a></li>
+              <li><a href="../uk/edinburghpage.html">Edinburgh</a></li>
+            </ul>
+          </li>
+
+
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Italy
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="../italy/romepage.html">Rome</a></li>
+              <li><a href="../italy/naplespage.html">Naples</a></li>
+            </ul>
+          </li>
+
+
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Germany
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="../germany/berlinpage.html">Berlin</a></li>
+              <li><a href="../germany/munichpage.html">Munich</a></li>
+            </ul>
+          </li>
+
+
+          <li class="active"><a href="../about/aboutpage.html">Contact us</a></li>
+
+
+
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+<h1 style="margin-left:30px">Rome, Italy</h1>
+
+
+<div class="tab-content">
+
+  <ul class="nav nav-tabs nav-justified">
+    <li class="active"><a data-toggle="tab" href="#overview">Overview</a></li>
+    <li><a data-toggle="tab" href="#sights">Sights</a></li>
+    <li><a data-toggle="tab" href="#museums">Museums</a></li>
+    <li><a data-toggle="tab" href="#food">Food</a></li>
+    <li><a data-toggle="tab" href="#transport">Transport</a></li>
+  </ul>
+
+  <div id="overview" class="tab-pane fade in active">
+
+
+    <div class="col-sm-4">
+    <h3>Overview</h3>
+    <h4>Currency: </h4><p>Euro</p>
+      <br>
+    <h4>Exchange rate: </h4><p>1GBP=1.15EURO</p>
+      <br>
+      <h4>Currency converter</h4>
+      <p>Type a value in GBP to convert it to EUR:</p>
+
+      <p>
+        <label>GBP</label>
+        <input id="GBP" type="number" placeholder="GBP" oninput="CurrencyConverter(this.value)" onchange="CurrencyConverter(this.value)">
+      </p>
+      <p>EUR: <span id="outputEUR"></span></p>
+
+    <br>
+
+
+    <h4>Official language: </h4><p>Italian</p>
+      <br>
+    <h4>  The national emergency numbers are: </h4>
+    <li>113 - emergency</li>
+    <li>113 - police</li>
+    <li>115 - fire brigade</li>
+    <li>118 - first aid</li>
+      <br>
+    <h4>Time difference:</h4><p> +1HR </p>
+    </div>
+
+    <div class="col-sm-8">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <img class="img-responsive"  src='romeoverview.jpeg' >
+      <br>
+      <br>
+      <br>
+
+    </div>
+  </div>
+
+  <div id="sights" class="tab-pane fade">
+
+    <div style="margin-left:30px">
+    <h3>Sights</h3>
+    </div>
+
+
+    <div class="col-sm-12">
+      <div class="col-sm-6">
+        <h4>Colosseum</h4>
+        <img class="img-responsive"  src='rome1.jpg' >
+      </div>
+
+      <div class="col-sm-6">
+        <br>
+        <br>
+        <div class="col-sm-6">
+          <p> It's the largest amphitheatre in the world </p>
+          <p> It was built between 72 A.D and 80A.D </p>
+          <p> Entrance to the Colosseum includes entry to its museum </p>
+          <P> Entrance prices: </p>
+          <li> Full entrance - €12,00 </li>
+          <li> Reduced entrance for EU citizens aged 18 to 25 - €7,50 </li>
+          <li> Under 18s - free </li>
+          <li> Free admission on the first Sunday of the month </li>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-sm-12">
+      <div class="col-sm-6">
+        <h4>The Vatican - St. Peter's Basilica</h4>
+        <img class="img-responsive"  src='rome2.jpeg' >
+      </div>
+
+      <div class="col-sm-6">
+        <br>
+        <br>
+        <div class="col-sm-6">
+        <p>The Vatican is an independent state within the city of Rome</p>
+        <p>It is the smallest state in the world by popilation and area </p>
+        <p>Entry to St. Peter's Basilica is free and it is open April-Sept 7am-7pm and Oct-March 7am-6pm </p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-sm-12">
+      <div class="col-sm-6">
+        <h4>Trevi fountain</h4>
+        <img class="img-responsive"  src='rome3.jpeg' >
+      </div>
+
+      <div class="col-sm-6">
+        <br>
+        <br>
+        <div class="col-sm-6">
+        <p> The fountain was completed in 1762 </p>
+        <p> It was named after the Roman goddess, Trivia </p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-sm-12">
+      <div class="col-sm-6">
+        <h4>Roman forum</h4>
+        <img class="img-responsive"  src='rome4.jpeg' >
+      </div>
+
+      <div class="col-sm-6">
+        <br>
+        <br>
+        <div class="col-sm-6">
+          <p> Entrance to the forum is inculded with entry to the Colosseum </p>
+          <p> It includes remains of temples, monuments, ancient government buildings and public spaces from several centuries </p>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-sm-12">
+      <div class="col-sm-6">
+        <h4>Pantheon</h4>
+        <img class="img-responsive"  src='rome5.jpeg' >
+      </div>
+
+      <div class="col-sm-6">
+        <br>
+        <br>
+        <div class="col-sm-6">
+        <p> There is no admission fee </p>
+        <p> It was built in 125AD </p>
+        <p> It is the largest unreinforced solid concrete dome in the world </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="museums" class="tab-pane fade media">
+
+    <div style="margin-left:30px">
+       <h3>Museums</h3>
+    </div>
+
+    <div class="col-sm-12">
+      <div class="col-sm-6">
+      <h4>Vatican museum</h4>
+      <img class="img-responsive"  src='rome6.jpeg' >
+      </div>
+
+      <div class="col-sm-6">
+        <br>
+        <br>
+        <div col-sm-6>
+        <p> The museum contains paintings, sculptures and other works of art collected by Popes</p>
+        <p> Entry prices: </p>
+        <li> Full entry €17,00 without online booking and €21,00 with the online booking but this does let you 'skip the line'</li>
+        <li> Reduced entry including students up to 25 years of age €8,00 without online booking and €12,00 with the online booking including 'skip the line' </li>
+        <li> Entry is free last Sunday of the month </li>
+        <li> Free entry for children under 6 </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-12">
+      <div class="col-sm-6">
+        <h4>Sistine Chapel</h4>
+        <img class="img-responsive"  src='rome7.jpeg' >
+      </div>
+
+      <div class="col-sm-6">
+        <br>
+        <br>
+        <div class="col-sm-6">
+        <p> The Sistine Chapel is located inside the Vatican museum and entry to it is included. </p>
+        <p> The ceiling of the Chapel is decorated by many famous works of art including 'The Creation of Adam' by Michaelangelo. </p>
+      </div>
+    </div>
+  </div>
+
+    <div class="col-sm-12">
+
+      <div class="col-sm-6">
+        <h4>Capitoline Museums</h4>
+        <img class="img-responsive"  src='rome8.jpeg' >
+      </div>
+
+      <div class="col-sm-6">
+        <br>
+        <br>
+        <div col-sm-6>
+          <p> The museums are made up of two buildings. </p>
+          <p> They display paintings, sculptures, busts and other art work. </p>
+          <p> Entry prices: </p>
+          <li> Full entry €15,00 </li>
+          <li> Reduced entry €13,00 </li>
+          <li> Free entry for children under 6 </li>
+        </div>
+      </div>
+    </div>
+
+   </div>
+
+  <div id="food" class="tab-pane fade">
+
+    <div style="margin-left:30px">
+      <h3>Food</h3>
+    </div>
+
+
+    <div class="col-sm-12">
+    <div class="col-sm-6">
+      <h4>Pizzarium</h4>
+      <img class="img-responsive"  src='rome9.jpeg' >
+    </div>
+
+    <div class="col-sm-6">
+      <br>
+      <br>
+      <div col-sm-6>
+        <li>Address: Via della Meloria, 43, Rome 136, Italy</li>
+        <li>Serves pizza by the slice - a great place to grab and go</li>
+      </div>
+    </div>
+
+    </div>
+
+    <div class="col-sm-12">
+    <div class="col-sm-6">
+      <h4>Gelateria dell’Angeletto</h4>
+      <img class="img-responsive"  src='rome10.jpeg' >
+    </div>
+
+    <div class="col-sm-6">
+      <br>
+      <br>
+      <div col-sm-6>
+        <li>Address: Via dell’Angeletto, 15, Rome, Italy </li>
+        <li>Reasonably priced starting at €2.50 and right around the corner from the Colosseum </li>
+      </div>
+    </div>
+
+    </div>
+
+    <div class="col-sm-12">
+    <div class="col-sm-6">
+      <h4>Supplizio</h4>
+      <img class="img-responsive"  src='rome11.jpeg' >
+    </div>
+
+    <div class="col-sm-6">
+      <br>
+      <br>
+      <div col-sm-6>
+        <li>Address:Via dei Banchi Vecchi, 143, Rome, Italy </li>
+        <li>Serve some of the best street food in Rome with the classics at €2-3</li>
+      </div>
+    </div>
+
+    </div>
+
+  </div>
+
+  <div id="transport" class="tab-pane fade">
+
+    <div style="margin-left:30px">
+      <h3>Transport</h3>
+    </div>
+
+    <div class="col-sm-12">
+      <div class="col-sm-4">
+         <h4> If traveling from the Fiumicino airport also known as the Leonardo da Vinci International Airport you can do so by: </h4>
+         <li> By the Leonardo Express a direct train between the airport and centre of Rome which departs every 30min. The train departs from track 24 and costs €11,00 at the counter but cost more at the departure platform. The train journey is 30min </li>
+         <li> The taxi to the centre costs a fixed price of €40,00 plus around €1,00 fee for each piece of luggage. </li>
+         <li> The Terravision shuttle bus runs 7 services a day. The tickets are €9,00 for a single or €15,00 for a return ticket. The journey is around 70min. </li>
+      </div>
+
+      <div class="col-sm-6">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d174453.26352269153!2d12.25454531993635!3d41.838183227394275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x1325f0793898141f%3A0xafe513b4e358316f!2sLeonardo+da+Vinci+International+Airport+(FCO)%2C+Via+dell&#39;+Aeroporto+di+Fiumicino%2C+00054+Fiumicino+RM%2C+Italy!3m2!1d41.799886799999996!2d12.2462384!4m5!1s0x132f61a5e9b33a5f%3A0xa2b305bcca1f6b8f!2sDemetra+Hotel+Rome+-+New+4+star+hotel+in+Rome+city+centre%2C+Via+del+Viminale%2C+8%2C+00184+Roma+RM%2C+Italy!3m2!1d41.900746!2d12.496692!5e0!3m2!1sen!2suk!4v1523809420127" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+    </div>
+
+
+    <div class="col-sm-12">
+      <div class="col-sm-4">
+         <h4> If traveling from the Ciampino airport you can do so by: </h4>
+
+         <li>To get to the train station at Ciampino you need to catch one of the Cotral/Schiaffini buses which departs every 30min and costs €1,00. The journey takes about 5min. The train to the centre of Rome is €1,50 and takes 15min.  </li>
+         <li> The taxi to the centre costs a fixed price of €30,00 for up to 4 people and luggage. </li>
+         <li> The Terravision shuttle bus costs €4,00 and runs between 05:35 and 23:00. </li>
+         <li> The ATAC bus 720 runs from Via dell’Aeroscalo 300m from the airport one to two times an hour and costs €1,50. The bus drops you off at metro B station Laurentina from where you can use the same ticket to take the metro to the city centre </li>
+      </div>
+
+      <div class="col-sm-6">
+        <br>
+        <br>
+        <br>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d95085.1425573532!2d12.485019062463644!3d41.862509323577704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x132588b6389de903%3A0xedb6061d8fc5510d!2sRome+Ciampino+Airport%2C+Via+Appia+Nuova%2C+1651%2C+00040+Roma+RM%2C+Italy!3m2!1d41.799194799999995!2d12.5946723!4m5!1s0x132f6196f9928ebb%3A0xb90f770693656e38!2sRome%2C+Metropolitan+City+of+Rome%2C+Italy!3m2!1d41.9027835!2d12.4963655!5e0!3m2!1sen!2suk!4v1523834317723" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div class="col-sm-12">
+      <div class="col-sm-4">
+      <h4> Within Rome the public transport options are: </h4>
+      <li> Single metro ride or 100 minutes on all buses allowing transfers - €1.50 </li>
+      <li> 24h ticket allowing unlimited metro, bus, and train travel within Rome - €7,00 </li>
+      <li> 48h ticket allowing unlimited metro, bus, and train travel within Rome - €12,50 </li>
+      <li> Public transport is free for children under 10 </li>
+    </div>
+    </div>
+
+  </div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="col-sm-12">
+  <br>
+
+  <br>
+
+  <br>
+
+  <br>
+
+  <br>
+
+  <br>
+  <button class='btn btn-primary btn-lg btn-twitter'>Twitter</button>
+  <button class='btn btn-primary btn-lg btn-facebook'><a class='social' href="https://www.facebook.com/dayinthecity1">Facebook</a></button>
+  <button class='btn btn-primary btn-lg btn-instagram'>Instagram</button>
+</div>
+
+</body>
+</html>

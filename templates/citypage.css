@@ -1,0 +1,40 @@
+body {
+
+    background-image: url('imagescss/backgroundimage.jpeg');
+    background-size: cover;
+    background-attachement: fixed;
+    min-height: 400px;
+
+}
+
+
+  .btn-twitter{
+    background: #00acee;
+    border-color: #009ad5
+
+  }
+
+.pad {
+  padding: 16px
+}
+
+.pad2 {
+  padding: 32px
+}
+  .btn-facebook{
+    background: #4868ac;
+    border-color: #314776;
+
+
+
+  }
+
+  .btn-instagram{
+    background: #1b3a6d;
+    border-color: #1b3a6d;
+
+  }
+
+.social {
+  color:white;
+}

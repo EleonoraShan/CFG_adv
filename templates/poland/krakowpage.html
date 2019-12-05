@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en-UK">
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="../css/citypage.css">
+  <script src="../converter.js"> </script>
+  <title> Krakow </title>
+
+</head>
+
+
+<body>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+
+
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+      </div>
+
+
+
+
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav ">
+          <li class="active"><a href="../index.html">Home</a></li>
+
+
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Poland
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="../poland/warsawpage.html">Warsaw</a></li>
+              <li><a href="../poland/krakowpage.html">Krakow</a></li>
+            </ul>
+          </li>
+
+
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">U.K.
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="../uk/londonpage.html">London</a></li>
+              <li><a href="../uk/edinburghpage.html">Edinburgh</a></li>
+            </ul>
+          </li>
+
+
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Italy
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="../italy/romepage.html">Rome</a></li>
+              <li><a href="../italy/naplespage.html">Naples</a></li>
+            </ul>
+          </li>
+
+
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Germany
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="../germany/berlinpage.html">Berlin</a></li>
+              <li><a href="../germany/munichpage.html">Munich</a></li>
+            </ul>
+          </li>
+
+
+          <li class="active"><a href="../about/aboutpage.html">Contact us</a></li>
+
+
+
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+<h1 style="margin-left:30px">Krakow, Poland</h1>
+
+
+<div class="tab-content">
+
+  <ul class="nav nav-tabs nav-justified">
+    <li class="active"><a data-toggle="tab" href="#overview">Overview</a></li>
+    <li><a data-toggle="tab" href="#sights">Sights</a></li>
+    <li><a data-toggle="tab" href="#museums">Museums</a></li>
+    <li><a data-toggle="tab" href="#food">Food</a></li>
+    <li><a data-toggle="tab" href="#transport">Transport</a></li>
+  </ul>
+
+  <div id="overview" class="tab-pane fade in active">
+
+
+    <div class="col-sm-4">
+    <h3>Overview</h3>
+    <h4>Currency: </h4><p>Polish Zloty</p>
+      <br>
+    <h4>Exchange rate: </h4><p>1GBP=4.81PLN</p>
+      <br>
+      <h4>Currency converter</h4>
+      <p>Type a value in GBP to convert it to PLN:</p>
+
+      <p>
+        <label>GBP</label>
+        <input id="GBP" type="number" placeholder="GBP" oninput="CurrencyConverter2(this.value)" onchange="CurrencyConverter2(this.value)">
+      </p>
+      <p>PLN: <span id="outputPLN"></span></p>
+
+    <br>
+
+
+    <h4>Official language: </h4><p>Polish</p>
+      <br>
+    <h4>  The national emergency numbers are: </h4>
+    <li>112 - emergency</li>
+    <li>997 - police</li>
+    <li>998 - fire brigade</li>
+    <li>999 - ambulance</li>
+      <br>
+    <h4>Time difference:</h4><p> +1HR </p>
+    </div>
+
+    <div class="col-sm-8">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <img class="img-responsive"  src='krakowoverview.jpeg' >
+      <br>
+      <br>
+      <br>
+
+    </div>
+  </div>
+
+  <div id="sights" class="tab-pane fade">
+
+    <div style="margin-left:30px">
+    <h3>Sights</h3>
+    </div>
+
+
+    <div class="col-sm-12">
+      <div class="col-sm-6">
+        <h4>Kraków Old Town</h4>
+        <img class="img-responsive"  src='krakow1.jpeg' >
+      </div>
+
+      <div class="col-sm-6">
+        <br>
+        <br>
+        <div class="col-sm-6">
+          <p> The old town has some of the most beautiful architecture in Krakow.</p>
+          <p> There are also a number of Cathedrals in the old town the entry to all of which is free.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-sm-12">
+      <div class="col-sm-6">
+        <h4>Wawel Castle</h4>
+        <img class="img-responsive"  src='krakow2.jpeg' >
+      </div>
+
+      <div class="col-sm-6">
+        <br>
+        <br>
+        <div class="col-sm-6">
+        <p>Wavel Castle contains a series of buildings including a Cathedral, Royal apparments and a museum</p>
+        <p>Entry to each of the exhibits is bought seperately. </p>
+        <p>Due to the restrictions on the daily number of visitors if you do not have a prebooked ticket you should aim to go there in the morning.</p>
+        <p> Entry prices: </p>
+
+        <li> State Rooms - normal 20PLN, reduced 12PLN </li>
+        <li>Royal Apartments - normal 25PLN, reduced 19PLN </li>
+        <li>Treasure and Armoury - normal 20PLN, reduced 12PLN </li>
+        <li>Lost Wavel - normal 10PLN, reduced 7PLN </li>
+        <li> Oriental Art - normal 8PLN, reduced 5PLN </li>
+        <li> Cathedral Museum, Royal Crypts and Sigismund Bell - normal 12PLN, reduced 7PLN </li>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-sm-12">
+      <div class="col-sm-6">
+        <h4>Main Square, Kraków</h4>
+        <img class="img-responsive"  src='krakow3.jpeg' >
+      </div>
+
+      <div class="col-sm-6">
+        <br>
+        <br>
+        <div class="col-sm-6">
+        <p> The main square dates back to the 13th century. </p>
+        <p> The square is surrounded by historic houses and churches. </p>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+
+  </div>
+
+  <div id="museums" class="tab-pane fade media">
+
+    <div style="margin-left:30px">
+       <h3>Museums</h3>
+    </div>
+
+    <div class="col-sm-12">
+      <div class="col-sm-6">
+      <h4>Schindler's Factory</h4>
+      <img class="img-responsive"  src='krakow4.jpeg' >
+      </div>
+
+      <div class="col-sm-6">
+        <br>
+        <br>
+        <div col-sm-6>
+        <p> The museum is names after Oskar Schindler who is credited with saving the lives of 1,200 Jews.</p>
+        <p> It displays a vast selection of artifact and testimonies from WW2 </p>
+
+        <p> Entry prices: </p>
+        <p> Normal 21 PLN </p>
+        <p> Reduced 16 PLN </p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-12">
+      <div class="col-sm-6">
+        <h4>Eagle Pharmacy </h4>
+        <img class="img-responsive"  src='krakow5.jpeg' >
+      </div>
+
+      <div class="col-sm-6">
+        <br>
+        <br>
+        <div class="col-sm-6">
+        <p> The Eagle Pharmacy was the only non-Jewish business that the Nazis allowed to continue operating in the Jewish ghetto </p>
+        <p> The pharmacy's owner, Tadeusz Pankiewicz, began running the business in 1933, and persuaded the Germans to let it remain open </p>
+        <p> Entry prices: </p>
+        <p> Normal 10 PLN </p>
+        <p> Reduced 8 PLN </p>
+      </div>
+    </div>
+  </div>
+
+
+
+   </div>
+
+  <div id="food" class="tab-pane fade">
+
+    <div style="margin-left:30px">
+      <h3>Food</h3>
+    </div>
+
+
+    <div class="col-sm-12">
+    <div class="col-sm-6">
+      <h4>Przystanek Pierogarnia</h4>
+      <img class="img-responsive"  src='krakow6.jpeg' >
+    </div>
+
+    <div class="col-sm-6">
+      <br>
+      <br>
+      <div col-sm-6>
+        <li>The restaurant serves food to sit in and take away</li>
+        <li> At peak times it can get very crowded but there are plenty of places to sit nearby if you take away </li>
+        <li> It serves a great range of traditional Polish dumplings </li>
+        <li>Serves pizza by the slice - a great place to grab and go</li>
+        <li> Address: ul. Bonerowska 14, Krakow 31-030, Poland </li>
+
+      </div>
+    </div>
+
+    </div>
+
+    <div class="col-sm-12">
+    <div class="col-sm-6">
+      <h4>Vegab</h4>
+      <img class="img-responsive"  src='krakow7.jpeg' >
+    </div>
+
+    <div class="col-sm-6">
+      <br>
+      <br>
+      <div col-sm-6>
+        <li> Poland has a lot of vegan restaurants </li>
+        <li> With prices at around 15PLN it is also very affordable </li>
+        <li>Address: Starowislna 6, Krakow 31-032, Poland </li>
+
+      </div>
+    </div>
+
+    </div>
+
+
+
+  </div>
+
+  <div id="transport" class="tab-pane fade">
+
+    <div style="margin-left:30px">
+      <h3>Transport</h3>
+    </div>
+
+    <div class="col-sm-12">
+      <div class="col-sm-4">
+         <h4> If traveling from KRK International Airport you can do so by: </h4>
+         <li> The train leaves from the train station at the airport and cost 12,50PLN. The journey take around 20min</li>
+         <li> A number of municipal bus services run through the airport. Tickets can be purchased at the machines in the airport and cost 4PLN </li>
+         <li> The taxis ride from the airport to the city centre cost a fixed fee of either 69PLN or 89PLN depending on the taxi you get. The journey should take around 25min </li>
+      </div>
+
+      <div class="col-sm-6">
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d141281.3529234382!2d19.733765495172488!3d50.043622163868605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x4716592789d2e8d1%3A0x93efc553923da128!2skrakow+airport!3m2!1d50.0769776!2d19.7881188!4m5!1s0x47165b13f2e0fa91%3A0xcef64798188022d2!2sHoliday+Inn+Krakow+City+Centre%2C+Wielopole+4%2C+31-072+Krak%C3%B3w%2C+Poland!3m2!1d50.0592974!2d19.9436912!5e0!3m2!1sen!2suk!4v1523888859090" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+    </div>
+
+
+
+
+    <div class="col-sm-12">
+      <div class="col-sm-4">
+      <h4> Within Krakow the public transport options are tram and bus, tickets must be bought at the ticket machines at the stops and the prices are as follows: </h4>
+      <li> Single ticket - 3.8PLN </li>
+      <li> 20min ticket - 2.8PLN </li>
+      <li> 60min ticket - 5PLN </li>
+      <li> 90min ticket - 6PLN </li>
+      <li> 24h ticket - 15PLN </li>
+      <li> 48h ticket - 24PLN </li>
+    </div>
+    </div>
+
+  </div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="col-sm-12">
+  <br>
+
+  <br>
+
+  <br>
+
+  <br>
+
+  <br>
+
+  <br>
+  <button class='btn btn-primary btn-lg btn-twitter'>Twitter</button>
+  <button class='btn btn-primary btn-lg btn-facebook'><a class='social' href="https://www.facebook.com/dayinthecity1">Facebook</a></button>
+  <button class='btn btn-primary btn-lg btn-instagram'>Instagram</button>
+</div>
+
+</body>
+</html>
